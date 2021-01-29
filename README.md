@@ -1,27 +1,34 @@
 # cs496-week4
 ### Abstraction
-Unity를 이용한 3D 레이싱 게임
+#### Unity를 이용한 3D 레이싱 게임   
+![부스터+아이템 대표](https://user-images.githubusercontent.com/71118232/106248345-302d9280-6254-11eb-93a9-82ed48a28234.gif)
+
 - Photon과 RPC를 이용한 멀티 플레이 기능
 - Firebase를 이용한 계정 인증 기능
 - 각종 아이템(바나나, 구름, 미사일, 물폭탄) 기능
 기존 게임인 넥슨의 카트라이더 게임의 아이템전의 형태를 이용하였다.   
 사용한 unity asset은 Karting Microgame, Low Poly Mini Village Free, US Road Signs Free 이다.   
-카트의 기본 movement과 그래픽만을 asset에서 사용하고, 이외의 기능은 모두 구현하였다.   
+카트의 기본 movement과 그래픽만을 asset에서 사용하고, 이외의 기능은 모두 구현하였다. 
+![드리프트](https://user-images.githubusercontent.com/71118232/106248409-489dad00-6254-11eb-926f-cefcd9d57a7e.gif)
+![부스터](https://user-images.githubusercontent.com/71118232/106248412-4a677080-6254-11eb-98db-7187be524c1f.gif)
 ### 기능
 #### 1) 로그인 기능
 firebase와 연동하여, firebase 내에 저장된 계정으로만 로그인이 가능하도록 하였다.
 #### 2) 맵 선택 기능
 두 가지 맵 중 하나를 선택할 수 있다.
-맵을 선택하면, 해당하는 맵의 로비로 이동한다.
+맵을 선택하면, 해당하는 맵의 로비로 이동한다.   
+![캡처_2021_01_29_17_08_45_554](https://user-images.githubusercontent.com/71118232/106248650-a03c1880-6254-11eb-909b-6f7e77edebbc.png)
 #### 3) 로비 기능
 자신의 캐릭터를 확인할 수 있다.   
 my room으로 이동하면 캐릭터와 카트의 색상을 변경할 수 있다.   
-변경한 색은 게임 중에 적용되며, 다른 플레이어의 색상도 해당 플레이어가 설정한대로 적용된다.
+변경한 색은 게임 중에 적용되며, 다른 플레이어의 색상도 해당 플레이어가 설정한대로 적용된다.   
+![색변경](https://user-images.githubusercontent.com/71118232/106249174-5bfd4800-6255-11eb-966e-f4a47b478cfd.gif)
 #### 4) 게임 화면
 게임은 최대 4명까지 참여가능하다.   
 게임에 가장 처음 입장하면 master client가 되고, master client에게만 start button이 활성화된다.   
 master client가 start button을 클릭하면 모든 플레이어의 화면에서 동시에 숫자가 카운트되고 게임이 시작한다.   
-게임 시작 전에는 움직임이 비활성화된다.
+게임 시작 전에는 움직임이 비활성화된다.   
+![시작](https://user-images.githubusercontent.com/71118232/106248432-50f5e800-6254-11eb-8da6-a77220e3ca4d.gif)
 ##### i) 미니맵
 좌측에 전체 미니맵이 나타난다.    
 이는 맵의 위에 있는 보조카메라로 track과 player만 표시하도록 설정하여 제작하였다.   
@@ -47,4 +54,8 @@ master client가 start button을 클릭하면 모든 플레이어의 화면에�
 나가기 버튼을 누르면 로비로 이동할 수 있고, 로비에서 나가기 버튼을 누르면 맵 선택 화면으로 이동할 수 있다.
 ##### vii) 기타
 맵 중간에 돌이 굴러 떨어지는 구간이 존재한다.   
-스피드 패드를 밟으면 자신의 현재 속도의 1.5배가 된다.
+스피드 패드를 밟으면 자신의 현재 속도의 1.5배가 된다.   
+점프대를 이용하여 끊긴 구간을 주행할 수 있다.   
+![돌굴리기](https://user-images.githubusercontent.com/71118232/106248393-43d8f900-6254-11eb-97cf-b70b99550c63.gif)
+![스피드패드](https://user-images.githubusercontent.com/71118232/106248418-4c313400-6254-11eb-806f-d139bdda181b.gif)
+![점프대](https://user-images.githubusercontent.com/71118232/106248423-4dfaf780-6254-11eb-8555-aa58d79db468.gif)
