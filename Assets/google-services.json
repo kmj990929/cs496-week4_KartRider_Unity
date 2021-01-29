@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "9952144413",
+    "project_id": "unity-pong-sample-backen-13610",
+    "storage_bucket": "unity-pong-sample-backen-13610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9952144413:android:5d90788853ea0bbb936af4",
+        "android_client_info": {
+          "package_name": "com.retr0.firebasepong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9952144413-mlq6gtrrhvcpnrk6n3nid0ct1na2olc4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.retr0.firebasepong",
+            "certificate_hash": "b6715b2e8ee5877253cdc6c480816682172007c1"
+          }
+        },
+        {
+          "client_id": "9952144413-kpt2togsvtlq1bkijj5ir9baq59bh88t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6JBS7tMR5-zKnQod23YZrdDT_uMCpVFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9952144413-kpt2togsvtlq1bkijj5ir9baq59bh88t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

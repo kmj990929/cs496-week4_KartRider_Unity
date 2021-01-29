@@ -1,0 +1,42 @@
+
+=== Fri Jan 22 15:13:13 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ext.nunit from version 1.0.0 to 1.0.6
+  com.unity.ide.rider from version 1.1.0 to 1.1.4
+  com.unity.ide.vscode from version 1.1.0 to 1.2.3
+  com.unity.mobile.android-logcat from version 1.0.0 to 1.2.0
+  com.unity.test-framework from version 1.0.13 to 1.1.20
+  com.unity.timeline from version 1.1.0 to 1.2.6
+The following packages were removed:
+  com.unity.package-manager-ui@2.2.0
+
+=== Fri Jan 22 15:16:11 2021
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.barracuda@0.5.0-preview
+  com.unity.cinemachine@2.5.0
+  com.unity.connect.share@1.2.0-preview.1
+  com.unity.learn.iet-framework@0.3.0-preview.5
+  com.unity.postprocessing@2.3.0
+  com.unity.probuilder@4.2.3
+The following packages were updated:
+  com.unity.timeline from version 1.2.6 to 1.2.14
+
+=== Fri Jan 22 16:23:17 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ads@3.5.2
+  com.unity.analytics@3.3.5
+  com.unity.multiplayer-hlapi@1.0.6
+  com.unity.purchasing@2.2.1
+  com.unity.xr.legacyinputhelpers@2.1.7
